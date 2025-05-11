@@ -250,9 +250,7 @@ export default function Weather() {
 
   // 날씨 정보 표시
   return (
-    <div className={`transition-all duration-300 ${
-      theme === 'dark' ? 'text-white' : 'text-gray-800'
-    }`}>
+    <div className={`transition-all duration-300 text-black`}>
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <span className="text-5xl mr-4">{weather.icon}</span>
